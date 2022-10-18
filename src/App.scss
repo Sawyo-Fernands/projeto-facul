@@ -1,0 +1,130 @@
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  h1{
+    background: -webkit-linear-gradient(45deg, #1077C3, #FEC310,#56042C 80%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
+
+  button{
+    border:none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    color: white;
+    background-color: #24547b;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    &:hover{
+      background-color: #11bf9f;
+    }
+  }
+}
+
+.headerModal{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+
+  
+}
+
+.buttonSend{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  button{
+    border:none;
+    outline: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    color: white;
+    background-color: #17a2b8;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid transparent;
+    transition: 0.2s;
+    &:hover{  
+      background-color: white;
+      color: #17a2b8;
+      border: 1px solid #17a2b8;
+    }
+  }
+}
+
+.containerInput{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+input{
+  border: none;
+  outline: none;
+  height: 26px;
+  border: 1px solid #888;
+  border-radius: 0.25rem;
+  padding: 0.2rem;
+}
+.cardComponent{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  width: 300px;
+  padding: 1rem;
+  background-color: white;
+
+  button{
+    border:none;
+    outline: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    color: white;
+    background-color: #17a2b8;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid transparent;
+    transition: 0.2s;
+
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    &:hover{  
+      background-color: white;
+      color: #17a2b8;
+      border: 1px solid #17a2b8;
+    }
+  }
+}
+.mainContainer{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: auto;
+  justify-content: center;
+}
